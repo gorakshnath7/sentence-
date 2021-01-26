@@ -16,10 +16,10 @@ function sentence() {
   var rand4 = Math.floor(Math.random() * 5);
   var rand5 = Math.floor(Math.random() * 10);
   var rand6 = Math.floor(Math.random() * 10);
-  //                var randCol = [rand1,rand2,rand3,rand4,rand5];
-  //                var i = randGen();
+
   var content = noms[rand1]+" "+verbs[rand2]+" "+sujet[rand3]+" "+conjonction[rand4]+" "+noms[rand5]+" "+sujet2[rand6]+".";
 
   document.getElementById('sentence').innerHTML = "&quot;" + content + "&quot;";
 };
 sentence();
+

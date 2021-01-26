@@ -1,3 +1,7 @@
+$.getJSON("data.json", function(json) {
+  console.log(json); // this will show the info it in firebug console
+});
+
 var verbs, nouns, adjectives, adverbs, preposition;
 noms = ["Jamy","Tallu","Yolande","Le chat","Luigi","Le charisme de Enes","David","Le prof de systeme","Vladimir Poutine","Donald Trump","Toute la S2B","Siphano","Jeff Besos","Maitre Gims","Patrick Balkany","Pierre Sylvain Durif","Edi malou","hitler","staline","putine","pétain","corona","hollande","macron","trump"];
 verbs = ["mange","danse sur","se fait","dab sur","est dans","execute","roule sur","fait une video sur","est en realite","se fait hacker par","parle avec","utilise d'une maniere etrange","sort avec","a une relation tres intime avec","fait un combat a mort avec","se fait battre sur rocket league par","dort avec","enterre","va a la piscine avec","va aux toilettes public avec","attrape","se fait rick roll par","achete des actions sur","fait un feat avec","charge son fusil en voyant"];

@@ -1,6 +1,6 @@
 $.getJSON("data.json", function(json) {
   var data=JSON.parse(json);
-  console.log(data.nom[0]) // this will show the info it in firebug console
+  console.log(data[0]) // this will show the info it in firebug console
 });
 
 var verbs, nouns, adjectives, adverbs, preposition;

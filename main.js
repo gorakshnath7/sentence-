@@ -1,26 +1,25 @@
-/*var getJSON = function(url, callback) {
-  var xhr = new XMLHttpRequest();
-  xhr.open('GET', url, true);
-  xhr.responseType = 'json';
-  xhr.onload = function() {
-    var status = xhr.status;
-    if (status === 200) {
-      callback(null, xhr.response);
-    } else {
-      callback(status, xhr.response);
-    }
-  };
-  xhr.send();
-};
-var data;
-getJSON('https://raw.githubusercontent.com/toxicbloud/SentencesGenerator/main/data.json',
-function(err, json) {
-  if (err !== null) {
-    alert('Something went wrong: ' + err);
-  } else {
-    console.log(json.nom[0]);
-  }
-}); */
+
+function playclip(){
+  var audio = document.getElementsByTagName("audio")[0];
+           audio.play();
+           audio.volume=0.2;
+         }
+$(document).ready(function() {
+     $('.mtrack').on('mouseenter',function(){
+     if(!$(this).hasClass('.played')){
+     playclip();
+     $(this).addClass('.played');
+     }
+     });
+$('.mtrack').on('mouseleave',function(){
+ if($(this).hasClass('.played')){
+ $(this).removeClass('.played');
+audio.pause();
+
+ }
+ });
+ });
+
 var verbs, noms,sujet,sujet2,conjonction;
 async function load() {
   let url = 'https://raw.githubusercontent.com/toxicbloud/SentencesGenerator/main/data.json';

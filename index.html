@@ -1,5 +1,7 @@
 <head>
   <link href="styles.css" rel="stylesheet">
+  <!-- Place this tag in your head or just before your close body tag. -->
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/vivus/0.4.5/vivus.min.js"
     integrity="sha512-NBLGIjYyAoYAr23l+dmAcUv7TvFj0XrqZoFa4i1o+F2VvF9SrERyMD8BHNnJn1SEGjl1AouBDcCv/q52L3ozBQ=="
     crossorigin="anonymous"></script>
@@ -91,9 +93,14 @@
         </svg>
       </span>
     </a>
+    
   </div>
+  <button onclick="copyToClipboard('#sentence')" id="copy" type="button">Copy to clipboard</button>
 </div>
-<footer>dédicace à baptiste</footer>
+<footer>
+  dédicace à baptiste <!-- Place this tag where you want the button to render. -->
+  <a class="github-button" href="https://github.com/toxicbloud" data-color-scheme="no-preference: dark; light: light; dark: dark;" data-size="large" data-show-count="true" aria-label="Follow @toxicbloud on GitHub">Follow @toxicbloud</a>
+</footer>
 <script type="text/javascript" src="main.js"></script>
 
 <audio preload="auto" src="sound.mp3" id="audio"></audio>

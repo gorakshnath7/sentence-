@@ -1,9 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:900i');
 
+button:focus {
+  background: #212121;
+}
+#copy{
+  padding-top: 10px;
+}
 * {
   box-sizing: border-box;
 }
-
+footer{
+  padding-top: 10px;
+}
 .wrapper {
   display: flex;
   justify-content: center;

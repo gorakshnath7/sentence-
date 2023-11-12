@@ -1,6 +1,6 @@
 # SentencesGenerator
 **dédicace à baptiste**
-[Go to generator](https://toxicbloud.github.io/SentencesGenerator/)
+[Go to generator](https://vmfxx.com/sentence-generator/)
 
 ## Ajouts
 
